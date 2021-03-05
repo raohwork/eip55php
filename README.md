@@ -12,7 +12,7 @@ Address::validate("0x0000000000000000000000000000000000000abc"); // false
 
 # License
 
-MPLv2.0
+MPL-2.0
 
 Copyright
 
