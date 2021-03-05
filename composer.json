@@ -1,0 +1,28 @@
+{
+    "name": "shoutloud/eip55php",
+    "description": "PHP lib to validate Ethereum EIP55 address format",
+    "type": "library",
+    "require": {
+        "kornrunner/keccak": "^1.1"
+    },
+    "license": "MPLv2.0",
+    "authors": [
+        {
+            "name": "Ronmi Ren",
+            "email": "ronmi.ren@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shoutloud\\EIP55\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShoutloudTest\\EIP55\\": "test"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
